@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.3rem;
+}
+
+#navbar {
+  z-index: 44;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.na-link:hover::after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  left: 10px;
+  bottom: 3px;
+  background-color: white;
+}
+
+#navbar .nav-link {
+  color: white;
+}
+
+.carousel-control-prev {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 5%;
+}
+
+.carousel-control-next {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  right: 5%;
+}
+
+.landing-page .carousel-item:nth-child(1) {
+  background: url("img/slider_1.jpg") center center / cover no-repeat;
+  height: 100vh;
+}
+
+.landing-page .carousel-item:nth-child(2) {
+  background: url("https://uicookies.com/demo/theme/pixels/img/slider_5.jpg")
+    center center / cover no-repeat;
+  height: 100vh;
+}
+
+.feature-work {
+  background-color: #161c2e;
+}
+
+.feature-work h5,
+.feature-work p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.5;
+}
+
+.feature-work button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 10px 0;
+  font-size: large;
+  font-weight: 600;
+}
+
+.service-number {
+  color: rgba(255, 255, 255, 0.153);
+  line-height: 1.5;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.author-img img {
+  height: 100px;
+}
+
+footer {
+  padding: 5em 0;
+  background: #f4bd00;
+}
